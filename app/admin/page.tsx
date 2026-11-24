@@ -1,1 +1,9 @@
-import Header from "@/components/Header"; export default function Admin(){return <><Header/><main className="admin-shell"><div className="admin-head"><div className="container"><div className="eyebrow">Studio management</div><h1 className="serif">Admin Dashboard Preview</h1><p className="muted">This is a visual starter dashboard. Secure administrator authentication and live database records must be configured before production use.</p></div></div><div className="container"><div className="stats">{[["New Enquiries","—"],["Confirmed Bookings","—"],["Upcoming Events","—"],["Pending Payments","—"]].map(([a,b])=><div className="stat" key={a}><span className="muted">{a}</span><strong>{b}</strong></div>)}</div><div className="table-wrap"><table><thead><tr><th>Booking reference</th><th>Customer</th><th>Service</th><th>Event date</th><th>Status</th></tr></thead><tbody><tr><td colSpan={5} className="muted">Connect Supabase and enable admin access to display live booking records.</td></tr></tbody></table></div></div></main></>}
+VINIT-STUDIOS/
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+├── supabase/
+├── package.json
+└── tsconfig.json
